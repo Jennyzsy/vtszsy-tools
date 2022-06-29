@@ -1,7 +1,7 @@
 {
   "name": "vtszsy-tools",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "基于ElementPlus二次开发的前端组件库",
   "main": "lib/index.min.js",
   "module": "lib/index.esm.js",
@@ -9,8 +9,8 @@
   "keyword": "vue3 element-plus",
   "license": "MIT",
   "author": {
-    "name": "zhongsy",
-    "email": "zhongsy@gillion.com.cn"
+    "name": "Jennyzsy",
+    "email": "1036575351@qq.com"
   },
   "scripts": {
     "dev": "vite",
