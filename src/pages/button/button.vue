@@ -9,6 +9,5 @@
 </template>
 
 <script lang="ts" setup>
-import { defineComponent, ref } from 'vue'
-import Slider from '../../packages/slider'
+  import Slider from '../../../packages/slider'
 </script>

@@ -16,9 +16,25 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
-    }
+      "@/*": ["src/*"],
+      "~/*": [
+        "packages/*"
+      ]
+    },
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+    "typings/**/*.ts",
+    "typings/shims-vue.d.ts",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "dist/**/*.ts",
+    "dist/**/*.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
