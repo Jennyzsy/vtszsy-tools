@@ -42,6 +42,10 @@ export default defineConfig({
       // 为开发服务器配置自定义代理规则
     }
   },
+  // 强制预构建插件包
+  optimizeDeps: {
+    include: ['axios']
+  },
   build: {
     outDir: 'dist',
     // 9月更新

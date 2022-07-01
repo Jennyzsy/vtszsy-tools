@@ -10,4 +10,11 @@
 
 <script lang="ts" setup>
   import Slider from '../../../packages/slider'
+  import {
+    getUser
+  } from '@/api/api'
+  const s = await getUser({
+    text: "羽筱蝶妃",
+  });
+  console.log(s);
 </script>
