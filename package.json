@@ -1,7 +1,7 @@
 {
   "name": "vtszsy-tools",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "基于ElementPlus二次开发的前端组件库",
   "main": "dist/vtszsy-tools.es.js",
   "module": "dist/vtszsy-tools.es.js",

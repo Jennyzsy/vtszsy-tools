@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
-import path from 'path'
+import { resolve } from 'path'
 import eslintPlugin from 'vite-plugin-eslint' //导入包
 
 // https://vitejs.dev/config/
@@ -27,11 +27,11 @@ export default defineConfig({
   resolve: {
     alias: {
       // 如果报错__dirname找不到，需要安装node,执行npm install @types/node --save-dev
-      '@': path.resolve(__dirname, 'src'),
-      '@/assets': path.resolve(__dirname, 'src/assets'),
-      '@/components': path.resolve(__dirname, 'src/components'),
-      '@/pages': path.resolve(__dirname, 'src/pages'),
-      '@/store': path.resolve(__dirname, 'src/store')
+      '@': resolve(__dirname, 'src'),
+      '@/assets': resolve(__dirname, 'src/assets'),
+      '@/components': resolve(__dirname, 'src/components'),
+      '@/pages': resolve(__dirname, 'src/pages'),
+      '@/store': resolve(__dirname, 'src/store')
     }
   },
   server: {
